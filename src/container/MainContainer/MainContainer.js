@@ -4,6 +4,7 @@ import Login from '../../components/Login/Login'
 import SubHeader from '../../components/SubHeader/SubHeader'
 import LastedList from '../../components/LastedList/LastedList'
 import Event from '../../components/Event/Event'
+import Footer from '../../components/Footer/Footer'
 
 class MainContainer extends Component {
     render() {
@@ -15,6 +16,7 @@ class MainContainer extends Component {
                <Event />
                <LastedList />
                <LastedList />
+               <Footer />
            </React.Fragment>
         )
     }

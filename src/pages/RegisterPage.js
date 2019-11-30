@@ -4,7 +4,7 @@ class RegisterPage extends Component {
     render() {
         return (
             <div>
-                
+                회원가입
             </div>
         )
     }

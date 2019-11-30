@@ -15,8 +15,8 @@ export const Wrapper = styled.div`
   div{
     color: white;
     position: absolute;
-    top: 320px;
-    left: 270px;
+    top: 80%;
+    left: 15%;
     h2 {
       margin-top: 0px;
     }

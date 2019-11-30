@@ -9,6 +9,7 @@ import {
   Spacer,
   Logo
 } from "./StyleHeader";
+import { Link } from 'react-router-dom'
 import ImageLogo from "../../assets/logo.png";
 class Header extends Component {
   render() {
@@ -20,9 +21,9 @@ class Header extends Component {
             <Item>모임 둘러보기</Item>
             <Item>모임 만들기</Item>
             <Spacer />
-            <Logo src={ImageLogo} />
+            <Logo src="https://lh6.googleusercontent.com/15FVyWEAZtPFBUMxTL4f_x9JPF0rYFSsG5SS1VJo7_LNXOrjDiE51j6K0H3s6lPrO7gZYcKOK70APtFoX4eNAj6ze5Tz6cABzGxUN0D4SpJvIYxqo3SW3RpVsQutA3T7Snl_ORbCrSE" width="120" />
             <Spacer />
-            <Item style={{marginRight: 10}}>로그인</Item>
+            <Item style={{marginRight: 10}}><Link to="/login" style={{textDecoration: "none", color: "black"}}>로그인</Link></Item>
             <span style={{fontWeight: 700}}>/</span>
             <Item style={{marginLeft: 10}}>회원가입</Item>
             <Spacer />
