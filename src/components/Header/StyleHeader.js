@@ -10,11 +10,10 @@ export const Positioner = styled.div`
 `;
 
 export const WhiteBackground = styled.div`
-  background: white;
+  background: #fff;
   display: flex;
   justify-content: center;
   height: auto;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 `;
 
 export const HeaderContent = styled.div`
@@ -23,11 +22,21 @@ export const HeaderContent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 5%;
+  justify-content: center;
 `;
 
+export const Item = styled.span`
+    margin-left: 1%;
+    margin-right: 1%;
+    color: black;
+    font-weight: bold;
+`
+
 export const Spacer = styled.div`
-  width: 100%;
-  height: 100%;
-  flex: 1;
-`;
+    flex: 1;
+`
+
+export const Logo = styled.img`
+
+`
