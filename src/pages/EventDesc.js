@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import EvnetDescContainer from '../container/EvnetDescContainer'
+import EventDescContainer from '../container/EventDescContainer'
+import Notice from "../components/Notice"
 
 class EventDesc extends Component {
     render() {
-        return <EvnetDescContainer />
+        return <EventDescContainer><Notice/></EventDescContainer>
     }
 }
 
-export default EventDesc
+export default EventDesc;

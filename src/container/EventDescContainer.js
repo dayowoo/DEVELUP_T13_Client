@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
+import Notice from "../components/Notice"
 
-class EvnetDescContainer extends Component {
+class EventDescContainer extends Component {
     render() {
         return (
-            <React.Fragment>
+            <div>
                 <Header />
-
+                <Notice/>
                 <Footer />
-            </React.Fragment>
+            </div>
         )
     }
 }
 
-export default EvnetDescContainer
+export default EventDescContainer;

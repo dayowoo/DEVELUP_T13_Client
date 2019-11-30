@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Wrapper, Inner, Box } from "./StyleEvent";
+import { Link } from 'react-router-dom';
 
 class Event extends Component {
   render() {
@@ -8,6 +9,7 @@ class Event extends Component {
         <Inner>
           <h1>현재 진행중인 이벤트</h1>
           <div>
+          <Link to="/EventDesc">
             <Box>
               <div
                 style={{
@@ -36,7 +38,8 @@ class Event extends Component {
                 width="176"
               />
             </Box>
-            <Box>
+            </Link>
+            <Link to="/EventDesc"><Box>
               <div
                 style={{
                   flex: 2,
@@ -64,6 +67,7 @@ class Event extends Component {
                 width="176"
               />
             </Box>
+            </Link>
           </div>
         </Inner>
       </Wrapper>
