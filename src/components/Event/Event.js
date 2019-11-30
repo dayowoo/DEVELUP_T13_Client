@@ -62,8 +62,7 @@ class Event extends Component {
                   2019.00.00
                 </span>
               </div>
-              <img
-                src="https://tumblbug-assets.imgix.net/collections/banner_images/000/000/280/original/banner_nekoze.png?w=352"
+              <img src={require('./event.png')} 
                 width="176"
               />
             </Box>
