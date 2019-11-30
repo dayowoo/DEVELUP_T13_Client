@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Signin = styled.div`
   width: 100%;
   height: 600px;
-  padding: 100px 0;
+  padding: 50px 0;
+  margin-top: 150px;
   display: flex;
   align-items: center;
   flex-direction: column;
